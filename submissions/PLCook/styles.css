@@ -1,4 +1,4 @@
-nav{
+ul{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
@@ -6,10 +6,6 @@ nav{
     padding:0;
     text-align:center;
 }
-nav li{
+li{
     display:inline;
-}
-nav a{
-    display:inline-block;
-    padding:10px;
 }
