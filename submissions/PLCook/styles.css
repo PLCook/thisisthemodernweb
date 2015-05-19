@@ -1,8 +1,15 @@
+html {
+    background: url(http://wallpapers55.com/wp-content/uploads/2013/12/beautiful-bike-hd-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+} 
+}
+
 ul{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
-    margin:0;
+    margin:30px;
     padding:0;
     text-align:center;
 }
@@ -11,21 +18,54 @@ li{
     margin:40px;
 }
 P { 
-	text-align: center;
+	text-align: left;
 	 }
 H2 { 
 	text-align: center;
+	margin: 30px;
+
 	 }
 H1 {
 	 	text-align: center;
+	 	margin: 30px;
 	 }
 
-img {
-		float: right;
+h3 {
+	padding-left: 10px;
 }
 
-section {
-		clear: both;
+h4 {
+	padding-left: 10px;
 }
+
+figure {
+		float: right;
+		width: 550px;
+		margin: 10px;
+		background-color: rgba(255,255,255,0.4);
+
+}
+
+section, aside {
+		clear: both;
+		padding: 10px fff 
+}
+
+p {
+	padding: 5px;
+	margin: 3px;
+	background-color: rgba(255,255,255,0.4);
+	width: 650px;
+}
+
+img {
+	padding: 5px solid white;
+	border: 2px solid black;
+	margin: 3px;
+	width: 550px;
+}
+
+
+
 
 
