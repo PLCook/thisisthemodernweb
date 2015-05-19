@@ -16,6 +16,8 @@ ul{
 li{
     display:inline;
     margin:40px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
 }
 P { 
 	text-align: left;
@@ -23,6 +25,8 @@ P {
 H2 { 
 	text-align: center;
 	margin: 30px;
+	padding: 30px;
+	padding-bottom: 35px;
 
 	 }
 H1 {
@@ -56,6 +60,7 @@ p {
 	margin: 3px;
 	background-color: rgba(255,255,255,0.4);
 	width: 650px;
+
 }
 
 img {
