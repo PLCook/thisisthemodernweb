@@ -6,8 +6,8 @@ html {
 }
 
 ul{
-    border:1px solid #ccc;
-    border-width:1px 0;
+    border: .063em solid #ccc;
+    border-width:.063em 0;
     list-style:none;
  	top: 0;
     padding:0;
@@ -15,13 +15,13 @@ ul{
 }
 li{
     display:inline-block;
-    margin:5px;
+    margin: .32em;
     background-color: rgba(255,255,255,0.8);
-    padding: 5px;
+    padding: .32em;
     color: black;
     text-transform: uppercase;
 
-    border-radius: 10px;
+    border-radius: .64em;
     font-family: orbitron;
 
 }
@@ -30,49 +30,56 @@ P {
 	 }
 H2 { 
 	text-align: center;
-	margin: 30px;
-	padding: 30px;
-	padding-bottom: 35px;
+	margin: 1em;
+	padding: 1em;
+	padding-bottom: 1.5em;
 	font-family: nevis;
 	font-size: 2.75em;
+	text-shadow: .075em .03em white;
 
 
 	 }
 H1 {
 	 	text-align: left;
-	 	margin: 75px;
+	 	margin: 2em;
+	 	margin-top: 1.3em;
+	 	margin-bottom: 1em;
 	 	font-family: orbitron;
 	 	font-size: 3em;
 	 	color: gray;
-	 	text-shadow: 4px 4px black;
+	 	text-shadow: .1em .065em black;
 	 }
 
 h3 {
-	padding-left: 10px;
+	padding-left: .64em;
 }
 
 h4 {
-	padding-left: 10px;
+	padding-left: .64em;
 }
 
 figure {
 		float: right;
-		width: 550px;
-		margin: 10px;
-		background-color: rgba(255,255,255,0.4);
+		width: 34.38em;
+		margin: .64em;
 
+
+}
+
+figcaption {
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 section, aside {
 		clear: both;
-		padding: 10px fff 
+		padding: .64em fff 
 }
 
 p {
-	padding: 5px;
-	margin: 3px;
+	padding: .313em;
+	margin: .188em;
 	background-color: rgba(255,255,255,0.4);
-	width: 650px;
+	width: 40.63em;
     -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
     transition: background-color 2s;
 
@@ -84,16 +91,14 @@ p:hover{
 }
 
 img {
-	padding: 5px solid white;
-	border: 2px solid black;
-	margin: 3px;
-	width: 550px;
+	border: .125em solid black;
+	width: 100%;
 	opacity: 0.5;
 }
 h2.summary, h2.video {
 	text-align: left;
-	margin: 5px;
-	padding-left: 5px;
+	margin: .313em;
+	padding-left: .313em;
 }
 
 img.faded:hover {
@@ -101,7 +106,7 @@ img.faded:hover {
 }
 
 #others{
-	padding-top: 70px;
+	padding-top: 4.375em;
 }
 
 @font-face {
@@ -116,7 +121,7 @@ img.faded:hover {
 }
 
 iframe {
-	padding-left: 35px;
+	padding-left: 2.293em;
 	opacity: 0.5;
 	border-style: none;
 }
@@ -130,12 +135,12 @@ position: fixed;
 top: 0;
 width: 100%;
 color: #ffffff;
-height: 65px;
+height: 4.063em;
 text-align: center;
 /* Adds shadow to the bottom of the bar */
--webkit-box-shadow: 0px 0px 8px 0px #000000;
--moz-box-shadow: 0px 0px 8px 0px #000000;
-box-shadow: 0px 0px 8px 0px #000000;
+-webkit-box-shadow: 0em 0em 8em 0em #000000;
+-moz-box-shadow: 0em 0em 8em 0em #000000;
+box-shadow: 0em 0em 8em 0em #000000;
 /* Adds the transparent background */
 background-color: rgba(1, 1, 1, 0.4);
 color: rgba(1, 1, 1, 0.8);
