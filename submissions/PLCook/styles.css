@@ -9,7 +9,7 @@ ul{
     border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
-    margin:20px;
+ 	top: 0;
     padding:0;
     text-align:center;
 }
@@ -18,11 +18,12 @@ li{
     margin:5px;
     background-color: rgba(255,255,255,0.8);
     padding: 5px;
-    height: 30px;
+    color: black;
     text-transform: uppercase;
-    line-height: 30px;
+
     border-radius: 10px;
     font-family: orbitron;
+
 }
 P { 
 	text-align: left;
@@ -32,13 +33,18 @@ H2 {
 	margin: 30px;
 	padding: 30px;
 	padding-bottom: 35px;
-	font-family: distorted;
+	font-family: nevis;
+	font-size: 2.75em;
+
 
 	 }
 H1 {
-	 	text-align: center;
-	 	margin: 30px;
+	 	text-align: left;
+	 	margin: 75px;
 	 	font-family: orbitron;
+	 	font-size: 3em;
+	 	color: gray;
+	 	text-shadow: 4px 4px black;
 	 }
 
 h3 {
@@ -105,8 +111,8 @@ img.faded:hover {
 }
 
 @font-face {
-	font-family: distorted;
-	src: url(Distorted.ttf);
+	font-family: nevis;
+	src: url(nevis.ttf);
 }
 
 iframe {
@@ -117,6 +123,30 @@ iframe {
 
 iframe:hover{
 	opacity: 1.0;
+}
+
+nav {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 65px;
+text-align: center;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.4);
+color: rgba(1, 1, 1, 0.8);
+}
+
+nav a:hover {
+color: grey;
+} 
+
+a:link {
+	color: black;
 }
 
 
