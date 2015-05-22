@@ -5,7 +5,7 @@ html {
 
 body {
 	width: 100%;
-	max-width: 1600px;
+	max-width: 1500px;
 }
 
 ul{
@@ -29,6 +29,7 @@ li{
 }
 P { 
 	text-align: left;
+	max-width: 100%;
 	 }
 H2 { 
 	text-align: center;
@@ -96,7 +97,7 @@ img {
 	border: .125em solid black;
 	width: 100%;
 	opacity: 0.5;
-	max-width: 100
+	max-width: 100%;
 }
 h2.summary, h2.video {
 	text-align: left;
@@ -147,15 +148,18 @@ box-shadow: 0em 0em 8em 0em #000000;
 /* Adds the transparent background */
 background-color: rgba(1, 1, 1, 0.4);
 color: rgba(1, 1, 1, 0.8);
+max-width: 100%;
 }
 
 nav a:hover {
-color: grey;
+color: gray;
 } 
 
 a:link {
 	color: black;
 }
+
+
 
 
 
