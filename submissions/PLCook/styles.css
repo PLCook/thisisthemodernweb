@@ -3,9 +3,17 @@ html {
     background-size: cover;
 }
 
+header {
+	max-width: 100%;
+
+}
+
 body {
 	width: 100%;
 	max-width: 1500px;
+
+	    background: url(http://wallpapers55.com/wp-content/uploads/2013/12/beautiful-bike-hd-wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 ul{
@@ -64,6 +72,7 @@ h4 {
 figure {
 		float: right;
 		width: 34.38em;
+		max-width: 100%;
 		margin: .64em;
 
 
@@ -71,6 +80,7 @@ figure {
 
 figcaption {
 	background-color: rgba(255, 255, 255, 0.5);
+	max-width: 100%;
 }
 
 section, aside {
@@ -85,6 +95,7 @@ p {
 	width: 40.63em;
     -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
     transition: background-color 2s;
+    border-radius: 1em;
 
 }
 
@@ -93,12 +104,16 @@ p:hover{
 
 }
 
+
 img {
 	border: .125em solid black;
-	width: 100%;
-	opacity: 0.5;
+	opacity: 1.0;
 	max-width: 100%;
-}
+	height: auto;
+	border-radius: .4em;
+	float: right;
+
+	}
 h2.summary, h2.video {
 	text-align: left;
 	margin: .313em;
@@ -128,11 +143,15 @@ iframe {
 	padding-left: 2.293em;
 	opacity: 0.5;
 	border-style: none;
+	max-width: 100%;
+
 }
 
 iframe:hover{
 	opacity: 1.0;
 }
+
+
 
 nav {
 position: fixed;
@@ -157,6 +176,16 @@ color: gray;
 
 a:link {
 	color: black;
+}
+
+.photo {
+	max-width: 100%;
+	height: auto;
+}
+
+.paragraph {
+	max-width: 100%;
+	height: auto;
 }
 
 
