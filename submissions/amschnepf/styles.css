@@ -1,0 +1,225 @@
+/* ----------------------------Type Selectors---------------------------- */
+
+body {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+@font-face{
+	font-family: myFirstFont;
+	src: url(font/CAE.TTF);
+}
+
+/* @media (max-width: 22em){
+	font-size: .9em;
+	padding: 1.5em;
+} */
+
+			/* 	h1 = 2015 Reading List  */
+h1 {
+	font-family: myFirstFont;
+	font-size: 4.5em;
+	color: white;
+	background-color: #434952;
+}
+ 
+
+h3 {
+	font-family: myFirstFont;
+	font-size: 3.5em;
+	color: white;
+	
+}
+
+header {
+	border: 10px solid #434952;
+	background-color: orange;
+	padding-top: 10.625em;
+	background-image: url('images/books.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+			/* Months */
+h4 {
+	font-family: myFirstFont;
+	font-size: 3em;
+	background-color: tomato;
+	
+}
+
+
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding: .313em 1.875em .313em 1.250em;
+	margin: 1.250em;
+} 
+
+img {
+	max-width: 100%;
+}
+
+
+
+
+/* ----------------------------Class Selectors------------------------------- */
+
+.nav {
+	
+	background-color: tomato;
+	padding: 0.625em;
+	border: .313em solid #434952;
+}
+
+.reading {
+	color: white;
+	background-color: #434952;
+	padding: .625em;
+	margin: .625em;
+	text-align: right;
+}
+
+.current{
+	padding: .625em;
+	margin: .625em;
+	border-radius: 6.250em;
+	border: .125em solid tomato;
+}
+
+.month {
+	border: .188em solid tomato;
+	margin: 1.250em;
+	
+}
+
+.title {
+	font-size: 1.750em;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+.image{
+	border-radius: 1.250em;
+	border: .313em dotted #424952;
+	padding: .938em;
+	width: 12.500em;
+	height: 29.688em;
+	margin: .625em; 
+}
+
+.swapMe img{
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.swap1,
+.swapMe:hover .swap2{
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.swapMe:hover .swap1,
+.swap2{
+	-webkit-opacity:0;
+	-moz-opacity:0;
+	opacity: 0;
+}
+
+.review{
+	padding: 4.688em 0em 4.688em;
+	margin: 0em .625em 0em;
+}
+
+.link:hover{
+	background-color: lightgrey;
+}
+
+.check{
+	font-size: 1.500em;
+}
+
+.hide{
+	display:none;
+}
+
+
+/* ----------------------------ID Selectors ----------------------------*/
+
+#main-content{
+	margin: 0em ;
+}
+
+#main-footer {
+	padding-top: 3.750em;
+	padding-bottom: 3.750em;
+	border-bottom: solid .625em #434952;
+}
+
+/* ---------------These selectors affect the links on the page ---------------------*/
+
+a:link {
+	color: #434952;
+}
+
+a:visited {
+	color: #0066CC;
+}
+
+
+/* ----------------------------Floated columns---------------------------- */
+
+.nav {
+	float: left;
+	margin: -3.25em;
+	border-radius: 50%;
+	width: 12.500em;
+	height: 18.750em;
+}
+
+.image{
+	width: 46.5%;
+	float: left;
+}
+
+/*  --------------------------- Media Queries -------------------------- */
+
+@media only screen and (max-width: 700px){
+	
+	
+	img{
+		max-width: 100%;
+		max-height: 100%;
+	}
+	
+	.swapMe, .image{
+		display: none;
+	}
+	
+	.hide{
+		display: inline;
+		max-width: 75%;
+		max-height: 75%;
+	}
+
+}
+
+
+
+/* ----------------------------Float Clearfix---------------------------- */
+
+.group:after{
+	content: "";
+	display: table;
+	clear: both;
+}
